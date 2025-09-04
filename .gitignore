@@ -179,3 +179,34 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# SIMS Data Files
+*.csv
+*.xlsx
+*.xls
+*.dat
+*.txt
+!requirements.txt
+!pyrite/data/reference_materials.json
+
+# Test data
+test_data/
+sample_data/
+*.test
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS Files  
+.DS_Store
+Thumbs.db
+*~
+
+# Temporary analysis outputs
+*.png
+*.pdf
+*.jpg
+output/
+results/
+figures/
